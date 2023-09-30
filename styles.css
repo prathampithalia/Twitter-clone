@@ -1,0 +1,388 @@
+@font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Light.3a18e64a.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Light.7a5673aa.woff) format('woff');
+    font-weight: 300;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Regular.80fda27a.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Regular.60b215ba.woff) format('woff');
+    font-weight: 400;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Medium.f8e2739a.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Medium.20fc288a.woff) format('woff');
+    font-weight: 500;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Bold.ebb56aba.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Bold.a573679a.woff) format('woff');
+    font-weight: 700;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Heavy.f44ae4ea.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Heavy.d70ec7ca.woff) format('woff');
+    font-weight: 800;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirpExtendedHeavy;
+    src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff2) format('woff2'), url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff) format('woff');
+    font-weight: 800;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+
+
+body {
+    margin: 0;
+
+}
+
+
+
+.main-body {
+    display: flex;
+    margin: 0 90px 0 90px;
+}
+
+.left-bar {
+    overflow: auto;
+    position: fixed;
+    height: 850px;
+    width: 26%;
+    background-color: transparent;
+}
+
+
+.left-bar-main {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.xlbox {
+    width: 100%;
+    height: 60px;
+    background-color:transparent;
+}
+
+.xlboxin{
+    margin-left: 6px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: transparent;
+}
+.xlboxin:hover{
+    cursor: pointer;
+
+    border-radius: 50%;
+    background-color: #eff3f4;
+}
+.xpremium-icon{
+    width: 40px;
+    margin-top: 10px;
+}
+
+
+.lbox {
+    min-width: 80px;
+    margin-top: 10px;
+    transition: all;
+    display: inline-flex;
+    width: fit-content;
+    height: 50px;
+    background-color: transparent;
+}
+
+
+
+.licon {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    height: 100%;
+}
+
+.home-icon , .search-icon , .notification-icon ,.messages-icon , .lists-icon , .communities-icon , .premium-icon, .profile-icon , .more-icon , .menu-dot{
+    width: 30px;
+
+}
+
+#h1{ font-weight: 600;}
+
+.litext {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    /* width: fit-content; */
+    font-size: 22px;
+    font-family: Twitterchirp;
+    background-color: transparent;
+    height: 100%;
+}
+
+
+.lbox:hover{
+    cursor: pointer;
+    background-color: #eff3f4;
+    border-radius: 20px;
+}
+
+.pbutton{
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0px;
+    font-size: 20px;
+    font-family: Twitterchirp;
+    color: white;
+    font-weight: 500;
+    width: 60%;
+    height:60px;
+    border-radius: 40px;
+    background-color: #1d9bf0;
+}
+
+.pbutton:hover{
+    background-color: #0392f2;
+    cursor: pointer;
+
+}
+
+/* ------------------center---------------- */
+
+
+.center-bar {
+    margin-left: 25%;
+    width: 48%;
+    /* background-color: red; */
+    background-color: transparent;
+}
+
+.center-bar-main {
+    border: 1px solid rgb(226, 226, 226)
+    ;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+.box-1 {
+    width: 100%;
+    height: 60px;
+    /* background-color: antiquewhite; */
+    background-color: transparent;
+}
+
+
+.b1-text{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Twitterchirp;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+
+.box-2 {
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.b2{
+    font-family: Twitterchirp;
+
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 40%;
+    height: 80%;
+    /* background-color: #1d9bf0; */
+}
+
+
+#b22:hover , #b21:hover{
+    border-bottom: 3px solid #0392f2 ;
+
+}
+
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 160px;
+    /* background-color: antiquewhite; */
+}
+
+
+.box-31{
+    display: flex;
+    /* background-color: #788d9b; */
+    width: 100%;
+    height: 50%;
+    justify-content: left;
+    align-items: center;
+
+}
+
+#p-id{
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#p-text-s{
+    border: 0;
+    margin-left: 10px;
+    font-family: TwitterChirp;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#p-text-s:focus{
+    outline: 0;
+    font-family: TwitterChirp;
+
+}
+
+
+.box-32{
+    display: inline-flex;
+    /* background-color: #1d9bf0; */
+    height: 50%;
+
+}
+
+.box-3-icon{
+    align-items: center;
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    height: 60px;
+}
+
+
+.box-3-icon-main{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55px;
+    fill: #0392f2;
+
+}
+
+.micon{
+    width: 30px;
+}
+
+#location-icon{
+    opacity: 40%;
+}
+
+.box-3-icon:hover{
+    background-color: #eff3f4 ;
+    border-radius: 50%;
+}
+.post-button-c{
+    display: flex;
+    width:40%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pbutton-c{
+    width:40%;
+    margin-top: 10px;
+    margin-right: 34px;
+    border: 0px;
+    font-size: 20px;
+    font-family: Twitterchirp;
+    color: white;
+    font-weight: 500;
+    height:40px;
+    border-radius: 40px;
+    background-color: #1d9bf0;
+    opacity: 70%;
+}
+
+.pbutton-c:hover{
+    background-color: #0392f2;
+}
+
+
+
+
+
+.box-main-section {
+
+    width: 100%;
+    height: 100%;
+    background-color: #eff3f4;
+
+
+}
+
+
+
+/* --------------- right--------------- */
+
+.right-bar {
+    display: flexbox;
+    height: 850px;
+    width: 26%;
+    /* background-color: green; */
+    background-color: transparent;
+}
+
+.search-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 5%;
+    background-color: #eff3f4;
+}
+
+.premium-box {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    height: 20%;
+    background-color: #eff3f4;
+}
+
+.lower-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    height: 65%;
+    background-color: #eff3f4;
+}
